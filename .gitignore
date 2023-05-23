@@ -21,6 +21,7 @@ bld/
 
 # Roslyn cache directories
 *.ide/
+.vs/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
@@ -152,6 +153,7 @@ sql/
 *.Cache
 ClientBin/
 [Ss]tyle[Cc]op.*
+!stylecop.json
 ~$*
 *~
 *.dbmdl
@@ -185,3 +187,6 @@ FakesAssemblies/
 
 # Rider files
 .idea/
+
+# Benchmark outputs
+BenchmarkDotNet.Artifacts/

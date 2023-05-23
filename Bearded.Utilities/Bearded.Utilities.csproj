@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <LangVersion>10</LangVersion>
+    <Nullable>enable</Nullable>
+    <WarningsAsErrors>CS8600;CS8602;CS8603</WarningsAsErrors>
+    <TargetFrameworks>net5.0;net6.0;netcoreapp3.1</TargetFrameworks>
+    <AssemblyTitle>Bearded Utilities</AssemblyTitle>
+    <Description>Set of basic utilities on top of OpenTK, mostly aimed at games.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/beardgame/utilities</RepositoryUrl>
+    <PackageTags>game-development;gamedev</PackageTags>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="OpenTK.Mathematics" Version="4.7.7" />
+    <PackageReference Include="OpenTK.Windowing.Desktop" Version="4.7.7" />
+    <PackageReference Include="OpenTK.Windowing.GraphicsLibraryFramework" Version="4.7.7" />
+    <PackageReference Include="System.Collections.Immutable" Version="7.0.0" />
+    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="6.0.0" />
+    <PackageReference Include="System.ValueTuple" Version="4.5.0" />
+  </ItemGroup>
+</Project>
